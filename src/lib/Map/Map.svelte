@@ -143,9 +143,9 @@
               attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           }).addTo(map);
 
-          homeIcon = new L.Icon(getIconOptions("src/lib/images/home.png"));
-          restaurantIcon = new L.Icon(getIconOptions("src/lib/images/restaurant.png"));
-          deliveryIcon = new L.Icon(getIconOptions("src/lib/images/delivery.png"));
+          homeIcon = new L.Icon(getIconOptions("./src/lib/images/home.png"));
+          restaurantIcon = new L.Icon(getIconOptions("./src/lib/images/restaurant.png"));
+          deliveryIcon = new L.Icon(getIconOptions("./src/lib/images/delivery.png"));
       }
   });
 
